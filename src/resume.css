@@ -11,11 +11,11 @@ a {
 }
 
 a:hover {
-  color: #1a8dff;
+  color: #FF4136;
 }
 
 strong {
-  color: #1a8dff;
+  color: #FF4136;
 }
 
 
@@ -55,7 +55,7 @@ strong {
   text-align: center;
 }
 .resume .main .header .header-icons .page-subhead { 
-  margin: 1rem 15px;
+  margin: 1rem 12px;
   display: inline;
 }
 .resume .main .header .fa {

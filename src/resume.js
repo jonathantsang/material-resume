@@ -25,13 +25,13 @@ angular.module('Resume', ['ngMaterial'])
     template: `<div class="header">
       <div class="page-title-container">
         <h2 class="page-title page-title-first">{{firstName}}</h2>
-        <h2 class="page-title page-title-last" style="color:#1a8dff;">{{lastName}}</h2>
+        <h2 class="page-title page-title-last" style="color:#FF4136;">{{lastName}}</h2>
       </div>
       <div class="header-icons">
-        <span ng-if="website" class="md-subhead page-subhead"><a target="_blank" href="http://kanyewest.com" style="color:black"><i class="fa fa-lg fa-code"></i>{{website}}</a></span>
-        <span ng-if="email" class="md-subhead page-subhead"><a target="_blank" href="mailto:kanye@west.com" style="color:black;"><i class="fa fa-lg fa-envelope"></i>{{email}}</a></span>
-        <span ng-if="github" class="md-subhead page-subhead"><a target="_blank" href="http://github.com/kanyewest" style="color:black;"><i class="fa fa-lg fa-github"></i>{{github}}</a></span>
-        <span ng-if="linkedin" class="md-subhead page-subhead"><a md-theme="default" target="_blank" href="http://linkedin.com/in/kanyewest" style="color:black;"><i class="fa fa-lg fa-linkedin-square"></i>{{linkedin}}</a></span>
+        <span ng-if="website" class="md-subhead page-subhead"><a target="_blank" href="jonathantsang.github.io" style="color:black"><i class="fa fa-lg fa-code"></i>{{website}}</a></span>
+        <span ng-if="email" class="md-subhead page-subhead"><a target="_blank" href="mailto:j26tsang@uwaterloo.ca" style="color:black;"><i class="fa fa-lg fa-envelope"></i>{{email}}</a></span>
+        <span ng-if="github" class="md-subhead page-subhead"><a target="_blank" href="http://github.com/jonathantsang" style="color:black;"><i class="fa fa-lg fa-github"></i>{{github}}</a></span>
+        <span ng-if="linkedin" class="md-subhead page-subhead"><a md-theme="default" target="_blank" href="http://linkedin.com/in/jonathan-tsang" style="color:black;"><i class="fa fa-lg fa-linkedin-square"></i>{{linkedin}}</a></span>
       </div>
     </div>`
   }
